@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Footer() {
   return (
     <footer className="border-t py-8">
@@ -14,25 +12,25 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Platform</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="text-gray-600 hover:text-primary">Elements</Link></li>
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">Templates</Link></li>
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">Pricing</Link></li>
+              <li><a href="/" className="text-gray-600 hover:text-primary">Elements</a></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">Templates</a></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">Pricing</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">About</Link></li>
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">Blog</Link></li>
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">Careers</Link></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">About</a></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">Blog</a></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">Careers</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">Privacy</Link></li>
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">Terms</Link></li>
-              <li><Link href="/#" className="text-gray-600 hover:text-primary">Cookies</Link></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">Privacy</a></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">Terms</a></li>
+              <li><a href="/#" className="text-gray-600 hover:text-primary">Cookies</a></li>
             </ul>
           </div>
         </div>
