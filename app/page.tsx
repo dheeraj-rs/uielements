@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { Heart, Eye, Search } from "lucide-react";
+import { Heart, Eye, Download, Share2, Search, Filter } from "lucide-react";
 import { motion } from "framer-motion";
 import UIElementModal from "@/components/ui-element-modal";
 import { formatNumber } from "@/lib/utils";
